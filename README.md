@@ -8,16 +8,16 @@ We provide **two distinct versions** of the userscript depending on your prefere
 
 ## 🌟 Choose Your Version
 
-### ☁️ Option A: The Cloud Serverless Edition (`yt-downloader-cloud.user.js`)
+### ☁️ Option A: The Cloud Serverless Edition ([`yt-downloader-cloud.user.js`](yt-downloader-cloud.user.js))
 **Best if you want zero setup and hate running `.bat` files.**
 - **No Local Server Needed**: 100% serverless. You do not need Python, `yt-dlp.exe`, or any `.bat` files running on your PC.
 - **Powered by Cobalt API**: Automatically connects to the blazing fast, free, ad-free `api.cobalt.tools` cloud backend to fetch direct download links instantly.
 - **Cross-Platform**: Works instantly on Windows, Mac, Linux, Android (via Kiwi Browser / Firefox), and iOS (via Userscripts app).
 
-### 🖥️ Option B: The Local Hardware Edition (`yt-downloader.user.js`)
+### 🖥️ Option B: The Local Hardware Edition ([`yt-downloader.user.js`](yt-downloader.user.js))
 **Best if you want raw local `yt-dlp` power, unlimited 4K downloads, and zero third-party server queues.**
 - **100% Local Execution**: Runs `yt-dlp.exe` and `ffmpeg.exe` directly on your machine.
-- **Silent Background Startup**: Includes a "Set & Forget" script (`setup_silent_startup.bat`) so the server boots completely invisibly in the background with Windows. **You never have to click a `.bat` file again!**
+- **Silent Background Startup**: Includes a "Set & Forget" script ([`setup_silent_startup.bat`](setup_silent_startup.bat)) so the server boots completely invisibly in the background with Windows. **You never have to click a `.bat` file again!**
 
 ---
 
@@ -26,16 +26,16 @@ We provide **two distinct versions** of the userscript depending on your prefere
 ### Option A: Cloud Edition (Zero Setup)
 1. Install [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/) in your browser.
 2. Open your userscript manager's dashboard and click **Create a new script**.
-3. Copy and paste the entire contents of **`yt-downloader-cloud.user.js`**.
+3. Copy and paste the entire contents of **[`yt-downloader-cloud.user.js`](yt-downloader-cloud.user.js)**.
 4. Save the script (`Ctrl+S`). You are ready to go!
 
 ---
 
 ### Option B: Local Edition (With Silent Startup)
 1. Ensure you have [Python 3](https://www.python.org/downloads/) installed (ensure **"Add Python to PATH"** is checked).
-2. Double-click `install_userscript.bat` to automatically download `yt-dlp.exe` and `ffmpeg.exe`.
-3. Install **`yt-downloader.user.js`** in Tampermonkey / Violentmonkey.
-4. **Enable Silent Startup (No `.bat` clicks)**: Double-click **`setup_silent_startup.bat`**. This creates an invisible Windows startup task. The server will run silently in the background automatically every time you start your PC!
+2. Double-click [`install_userscript.bat`](install_userscript.bat) to automatically download `yt-dlp.exe` and `ffmpeg.exe`.
+3. Install **[`yt-downloader.user.js`](yt-downloader.user.js)** in Tampermonkey / Violentmonkey.
+4. **Enable Silent Startup (No `.bat` clicks)**: Double-click **[`setup_silent_startup.bat`](setup_silent_startup.bat)**. This creates an invisible Windows startup task. The server will run silently in the background automatically every time you start your PC!
 
 ---
 
